@@ -1,0 +1,24 @@
+{
+    "model_urls":[
+        "https://huggingface.co/nuigurumi/basil_mix/resolve/main/Basil_mix_fixed.safetensors"
+    ],
+    "vae_urls":[
+        "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt"
+    ],
+    "lora_urls":[
+        "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt"
+    ],
+    "emb_urls":[
+        "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt"
+    ],
+    "extensions":[
+        "https://github.com/36DB/stable-diffusion-webui-localization-ko_KR.git",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git",
+        "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git"
+    ],
+
+
+    "positive":"masterpiece, best quality, ",
+    "negative":"lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, bad_prompt"
+
+}
