@@ -1,8 +1,8 @@
 #!/bin/bash
 
-huggingface-cli login
+#huggingface-cli login
 
-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
+#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
 
 git clone https://huggingface.co/ENSEONG/selfmix
 
@@ -10,10 +10,10 @@ git clone https://huggingface.co/ENSEONG/selfmix
 # (https://git-lfs.github.com/)
 git lfs install
 
-cp selfmix/setmodel/models/Lora models/Lora
-cp selfmix/setmodel/models/Stable-diffusion models/Stable-diffusion
-cp selfmix/setmodel/models/VAE models/VAE
-cp selfmix/setmodel/embeddings /embeddings
+cp -r selfmix/setmodel/models/Lora ./models/Lora
+cp -r selfmix/setmodel/models/Stable-diffusion ./models/Stable-diffusion
+cp -r selfmix/setmodel/models/VAE ./models/VAE
+cp -r selfmix/setmodel/embeddings ./embeddings
 
 #git add . && git commit -m "Update from $USER"
 #git push
