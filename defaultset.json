@@ -1,12 +1,18 @@
 {
     "model_urls":[
-        "https://huggingface.co/nuigurumi/basil_mix/resolve/main/Basil_mix_fixed.safetensors"
+        "https://huggingface.co/nuigurumi/basil_mix/resolve/main/Basil_mix_fixed.safetensors",
+        "https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix2/AbyssOrangeMix2_hard.safetensors",
+        "https://huggingface.co/TASUKU2023/Chilloutmix/resolve/main/Chilloutmix.safetensors"       
     ],
     "vae_urls":[
         "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt"
     ],
     "lora_urls":[
-        "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt"
+        "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt",
+        "https://civitai.com/api/download/models/9995",
+        "https://civitai.com/api/download/models/9807",
+        "https://civitai.com/api/download/models/8750"
+
     ],
     "emb_urls":[
         "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt"
@@ -19,6 +25,6 @@
 
 
     "positive":"masterpiece, best quality, ",
-    "negative":"lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, bad_prompt"
+    "negative":"lowres, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, signature, watermark, blurry, bad_prompt"
 
 }
