@@ -10,7 +10,7 @@ apt isntall vim
 pip install wget
 pip install gitpython
 
-cp SDsetting/ui-config.json ui-config.json
-
 python SDsetting/modeldownloader.py --set
 
+#git add . && git commit -m "Update from $USER"
+#git push
