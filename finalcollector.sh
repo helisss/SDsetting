@@ -1,5 +1,5 @@
 #!/bin/bash
 
-zip -r /workspace/outputs.zip /workspace/outputs
+zip -r outputs.zip outputs/
 
 runpodctl send outputs.zip
