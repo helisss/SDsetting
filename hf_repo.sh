@@ -6,8 +6,8 @@
 apt update
 
 apt isntall vim
+pip install wget
 
-apt install 
 git clone https://huggingface.co/ENSEONG/selfmix
 
 # Make sure you have git-lfs installed
