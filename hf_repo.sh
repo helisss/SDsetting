@@ -10,10 +10,10 @@ git clone https://huggingface.co/ENSEONG/selfmix
 # (https://git-lfs.github.com/)
 git lfs install
 
-cp -r selfmix/setmodel/models/Lora ./models/Lora
-cp -r selfmix/setmodel/models/Stable-diffusion ./models/Stable-diffusion
-cp -r selfmix/setmodel/models/VAE ./models/VAE
-cp -r selfmix/setmodel/embeddings ./embeddings
+cp -r selfmix/setmodel/models/Lora ./models
+cp -r selfmix/setmodel/models/Stable-diffusion ./models
+cp -r selfmix/setmodel/models/VAE ./models
+cp -r selfmix/setmodel/embeddings ./
 
 #git add . && git commit -m "Update from $USER"
 #git push
