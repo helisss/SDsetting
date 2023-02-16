@@ -79,7 +79,7 @@ def backup_config():
 
 if __name__ == '__main__':
     args = argsset()
-    with open("sd-auto-v2/defaultset.json", 'r', encoding='utf-8') as reader:
+    with open("SDsetting/defaultset.json", 'r', encoding='utf-8') as reader:
         default = json.load(reader)
         
     if args.set:
