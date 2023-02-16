@@ -3,7 +3,7 @@
 #huggingface-cli login
 
 #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
-source ..venv/bin/activate
+source ../venv/bin/activate
 
 apt update
 apt isntall vim
