@@ -32,7 +32,7 @@ def model_downloader(model_urls, model_type):
     
     models_dir = os.path.join(home_dir, address) # create directory to save models
     os.makedirs(models_dir, exist_ok=True) # create directory if it doesn't exist
-    for rl in model_urls:
+    for url in model_urls:
         wget.download(url, models_dir)
         fname = url.split('/')[-1]
         print(f'\n{fname} th file download done')
