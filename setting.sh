@@ -9,6 +9,7 @@ pip install wget
 pip install gitpython
 
 cp SDsetting/ui-config.json ui-config.json
+cp SDsetting/config.json config.json
 
 python SDsetting/modeldownloader.py --set
 
