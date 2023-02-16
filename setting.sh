@@ -1,5 +1,5 @@
 #!/bin/bash
-source ../venv/bin/activate
+source venv.sh
 
 apt update
 apt install vim
