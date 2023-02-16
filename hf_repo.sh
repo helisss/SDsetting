@@ -19,5 +19,7 @@ cp -r selfmix/setmodel/models/Stable-diffusion ./models
 cp -r selfmix/setmodel/models/VAE ./models
 cp -r selfmix/setmodel/embeddings ./
 
+python SDsetting/modeldownloader.py --ext
+
 #git add . && git commit -m "Update from $USER"
 #git push
