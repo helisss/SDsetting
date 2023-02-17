@@ -16,3 +16,5 @@ python SDsetting/modeldownloader.py --set
 
 cp -r SDsetting/wildcards/* extensions/stable-diffusion-webui-wildcards/wildcards
 
+cp SDsetting/relauncher.py relauncher.py
+
