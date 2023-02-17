@@ -37,7 +37,7 @@
         "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git"
     ],
 
-    "positive":"(best quality), (masterpiece), (high resolution), (intricate details), (photorealistic), (cinematic light)",
+    "positive":"(best quality,masterpiece:1,2), (high resolution), (intricate details), (photorealistic), (cinematic light)",
     "negative":"(low quality:1.5), (worst quality:1.5),extra digit, signature, watermark, blurry, bad_prompt"
 
 }
