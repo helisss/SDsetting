@@ -35,7 +35,7 @@ def model_downloader(model_urls, model_type):
     for url in model_urls:
         wget.download(url, models_dir)
         fname = url.split('/')[-1]
-        print(f'\n{fname} th file download done')
+        print(f'\n{fname} model file download done')
 
 # Define a function to download extensions from the urls list
 def ext_downloader(urls):
