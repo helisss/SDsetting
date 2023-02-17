@@ -1,5 +1,5 @@
 #!/bin/bash
-source venv.sh
+#source venv.sh
 
 apt update
 apt -y install vim
