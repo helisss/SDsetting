@@ -3,11 +3,13 @@
         "https://huggingface.co/nuigurumi/basil_mix/resolve/main/Basil_mix_fixed.safetensors",
         "https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix2/AbyssOrangeMix2_hard.safetensors",
         "https://huggingface.co/TASUKU2023/Chilloutmix/resolve/main/Chilloutmix.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/zetacolorV5_zetacolorV5.ckpt"       
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/zetacolorV5_zetacolorV5.ckpt",
+	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.safetensors"
     ],
     "vae_urls":[
         "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/VAE/vae-ft-mse-840000-ema-pruned.ckpt"
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/VAE/vae-ft-mse-840000-ema-pruned.ckpt",
+	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.vae.pt"
     ],
     "lora_urls":[
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/ConceptImpliedFellatio_ConceptImpliedFellatio.safetensors",
@@ -35,7 +37,7 @@
         "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git"
     ],
 
-    "positive":"masterpiece, best quality, ",
-    "negative":"lowres, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, signature, watermark, blurry, bad_prompt"
+    "positive":"(best quality), (masterpiece), (high resolution), (intricate details), (photorealistic), (cinematic light)",
+    "negative":"(low quality:1.5), (worst quality:1.5),extra digit, signature, watermark, blurry, bad_prompt"
 
 }

@@ -91,7 +91,7 @@ if __name__ == '__main__':
         model_downloader(default["emb_urls"], "emb")
         ext_downloader(default["extensions"])
                 
-#        set_default_prompt(default["positive"],default["negative"])
+        set_default_prompt(default["positive"],default["negative"])
         
     elif args.ext:
         # model_url = input("Enter the urls:   ")
