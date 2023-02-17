@@ -37,6 +37,8 @@ def model_downloader(model_urls, model_type):
         fname = url.split('/')[-1]
         print(f'\n{fname} model file download done')
 
+
+
 # Define a function to download extensions from the urls list
 def ext_downloader(urls):
     ext_dir = os.path.join(home_dir, 'extensions') # create directory to save extensions
@@ -67,6 +69,24 @@ def set_default_prompt(positive, negative):
     with open(ui_conf_path, 'w', encoding='utf-8') as f:
         json.dump(ur_ui, f, indent=4)
 
+def clean_modelconfig():
+
+    conf_path = os.path.join(home_dir, 'config.json')
+    conf_bk_path = os.path.join(home_dir, 'config_bk.json')
+    if not os.path.exists(conf_bk_path):
+        shutil.copy(conf_path, conf_bk_path)
+    with open(conf_path, 'r', encoding='utf-8') as f:
+        orig_conf = json.load(f)
+        ur_conf = orig_conf
+
+    # Modify config.json file
+    ur_conf['sd_checkpoint_hash'] = ""
+    ur_conf['sd_model_checkpoint'] = ""
+
+    # Save changes to config.json file
+    with open(conf_path, 'w', encoding='utf-8') as f:
+        json.dump(ur_conf, f, indent=4)
+
 # Define a function to backup ui-config.json file
 def backup_config():
     try:
@@ -92,6 +112,7 @@ if __name__ == '__main__':
         ext_downloader(default["extensions"])
                 
         set_default_prompt(default["positive"],default["negative"])
+        clean_modelconfig()
         
     elif args.ext:
         # model_url = input("Enter the urls:   ")
