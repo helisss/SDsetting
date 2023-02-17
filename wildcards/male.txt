@@ -1,0 +1,12 @@
+man
+male
+son
+father
+uncle
+male_cousin
+granddaughter
+brother
+older_brother
+younger_brother
+step-brother
+half-brother

@@ -1,0 +1,13 @@
+
+colored_inner
+glowing
+gradient
+highlight
+multicolored
+multicolored
+odd
+rainbow
+split-color
+streaked
+tinted
+two-tone

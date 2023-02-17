@@ -1,0 +1,12 @@
+girl
+female
+daughter
+mother
+aunt
+female_cousin
+grandmother
+brother
+older_sister
+younger_sister
+step-sister
+half-sister

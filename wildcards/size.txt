@@ -1,0 +1,9 @@
+micro
+very_tiny
+tiny
+small
+normal
+big
+large
+very_large
+huge

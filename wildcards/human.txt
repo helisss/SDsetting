@@ -1,0 +1,10 @@
+
+a_mixed_eastern_blood
+a_mixed_race_of_black_people
+a_mixed_race_of_white_blood
+black_man
+black_quarter
+eastern_quota
+white_man
+white_quarter
+yellow_man

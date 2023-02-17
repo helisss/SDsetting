@@ -1,41 +1,51 @@
-bold
-short black hair
-short blond hair
-short auburn hair
-short brown hair
-short gray hair
-long black hair
-long blond hair
-long auburn hair
-long brown hair
-long gray hair
-long wavy black hair
-long wavy blond hair
-long wavy auburn hair
-long wavy brown hair
-long wavy gray hair
-black undercut
-blond undercut
-auburn undercut
-brown undercut
-gray undercut
-long curly black hair
-long curly blond hair
-long curly auburn hair
-long curly brown hair
-long curly gray hair
-black buzzcut
-blond buzzcut
-auburn buzzcut
-brown buzzcut
-gray buzzcut
-black dreadlocks
-blond dreadlocks
-auburn dreadlocks
-brown dreadlocks
-gray dreadlocks
-black braids
-blond braids
-auburn braids
-brown braids
-gray braids
+
+blunt bangs
+braid
+braided_bangs
+braided_bun
+cone_hair_bun
+cornrows
+crown_braid
+curly_hair
+double_bun
+doughnut_hair_bun
+dreadlocks
+flipped_hair
+folded_ponytail
+french_braid
+front_braid
+front_ponytail
+hair_between_eyes
+hair_bun
+hair_over_eyes
+hair_over_one_eye
+heart_hair_bun
+high_ponytail
+hime_cut
+low_twintails
+messy_hair
+multiple_braids
+one_side_up
+pixie_cut
+pointy_hair
+ponytail
+quad_braids
+quad_tails
+quin_tails
+short_ponytail
+short_twintails
+side_braid
+side_ponytail
+single_braid
+single_hair_bun
+spiked_hair
+split_ponytail
+tri_braids
+tri_tails
+triple_bun
+twin_braids
+twintails
+two_side_up
+undercut
+uneven_twintails
+wavy_hair
