@@ -2,7 +2,7 @@
 #source venv.sh
 
 apt update
-apt -y install vim
+apt -y install vim zip
 
 pip install wget
 pip install gitpython
