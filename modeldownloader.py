@@ -33,9 +33,9 @@ def model_downloader(model_urls, model_type):
     models_dir = os.path.join(home_dir, address) # create directory to save models
     os.makedirs(models_dir, exist_ok=True) # create directory if it doesn't exist
     for url in model_urls:
-        wget.download(url, models_dir)
         fname = url.split('/')[-1]
-        print(f'\n{fname} model file download done')
+        print(f'\n{fname} model file download start')
+        wget.download(url, models_dir)
 
 
 
@@ -112,7 +112,7 @@ if __name__ == '__main__':
         ext_downloader(default["extensions"])
                 
         set_default_prompt(default["positive"],default["negative"])
-        clean_modelconfig()
+        #clean_modelconfig()
         
     elif args.ext:
         # model_url = input("Enter the urls:   ")
