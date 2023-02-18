@@ -30,10 +30,10 @@ def model_downloader(model_urls, model_type):
     elif model_type == 'emb':
         address = 'embeddings'
     elif model_type == 'controlnet':
-        adress = 'extensions/sd-webui-controlnet/models'
+        address = 'extensions/sd-webui-controlnet/models'
     
     models_dir = os.path.join(home_dir, address) # create directory to save models
-    #os.makedirs(models_dir, exist_ok=True) # create directory if it doesn't exist
+    os.makedirs(models_dir, exist_ok=True) # create directory if it doesn't exist
     for url in model_urls:
         fname = url.split('/')[-1]
         print(f'\n{fname} model file download start')
