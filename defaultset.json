@@ -1,11 +1,6 @@
 {
     "model_urls":[
-        "https://huggingface.co/nuigurumi/basil_mix/resolve/main/Basil_mix_fixed.safetensors",
 	"https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3.safetensors",
-	"https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3A2.safetensors",
-        "https://huggingface.co/TASUKU2023/Chilloutmix/resolve/main/Chilloutmix.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/zetacolorV5_zetacolorV5.ckpt",
-	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.safetensors"
     ],
     "contorlnet_urls":[
         "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors",
@@ -15,27 +10,15 @@
     "vae_urls":[
         "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/VAE/vae-ft-mse-840000-ema-pruned.ckpt",
-	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.vae.pt"
     ],
     "lora_urls":[
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/ConceptImpliedFellatio_ConceptImpliedFellatio.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/ahegao_v1.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/estheticFutanariTrap_tr25.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/jennieBlackpink_v1.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/jisooBlackpink_v1.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/lisaBlackpink_v1.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/koreanDollLikeness_v10.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/shirtTugPoseLORA_shirtTug.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/yejiItzy_v1.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/stLouisLuxuriousWheels_v1.safetensors"
     ],
     "emb_urls":[
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/HyperStylizeV6.pt",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/InkPunk768.pt",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/PureErosFace_V1.pt",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/RSC.pt",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/ulzzang-6500.pt",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/corneo_x_pasties.pt"
     ],
     "extensions":[
         "https://github.com/36DB/stable-diffusion-webui-localization-ko_KR.git",
