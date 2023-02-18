@@ -1,6 +1,6 @@
 {
     "model_urls":[
-	"https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3.safetensors",
+	"https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3.safetensors"
     ],
     "contorlnet_urls":[
         "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors",
@@ -9,16 +9,16 @@
     ],
     "vae_urls":[
         "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/VAE/vae-ft-mse-840000-ema-pruned.ckpt",
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/VAE/vae-ft-mse-840000-ema-pruned.ckpt"
     ],
     "lora_urls":[
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/lisaBlackpink_v1.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/koreanDollLikeness_v10.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/shirtTugPoseLORA_shirtTug.safetensors",
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/shirtTugPoseLORA_shirtTug.safetensors"
     ],
     "emb_urls":[
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/PureErosFace_V1.pt",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/ulzzang-6500.pt",
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/ulzzang-6500.pt"
     ],
     "extensions":[
         "https://github.com/36DB/stable-diffusion-webui-localization-ko_KR.git",
