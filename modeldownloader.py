@@ -29,6 +29,8 @@ def model_downloader(model_urls, model_type):
         address = 'models/VAE'
     elif model_type == 'emb':
         address = 'embeddings'
+    elif model_type == 'controlnet':
+        adress = 'extensions/sd-webui-controlnet/models'
     
     models_dir = os.path.join(home_dir, address) # create directory to save models
     os.makedirs(models_dir, exist_ok=True) # create directory if it doesn't exist
@@ -105,11 +107,13 @@ if __name__ == '__main__':
         default = json.load(reader)
         
     if args.set:
+        ext_downloader(default["extensions"])
+                
         model_downloader(default["model_urls"], "SD")
         model_downloader(default["lora_urls"], "Lora")
         model_downloader(default["vae_urls"], "VAE")
         model_downloader(default["emb_urls"], "emb")
-        ext_downloader(default["extensions"])
+        model_downloader(default["contorlnet_urls"], "controlnet")
                 
         set_default_prompt(default["positive"],default["negative"])
         #clean_modelconfig()

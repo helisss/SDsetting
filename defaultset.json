@@ -7,6 +7,11 @@
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/zetacolorV5_zetacolorV5.ckpt",
 	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.safetensors"
     ],
+    "contorlnet_urls":[
+        "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors",
+        "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors",
+        "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
+    ],
     "vae_urls":[
         "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/VAE/vae-ft-mse-840000-ema-pruned.ckpt",
@@ -35,7 +40,8 @@
     "extensions":[
         "https://github.com/36DB/stable-diffusion-webui-localization-ko_KR.git",
         "https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git",
-        "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git"
+        "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git",
+        "https://github.com/Mikubill/sd-webui-controlnet"
     ],
 
     "positive":"(best quality,masterpiece:1,2), (high resolution), (intricate details), (photorealistic), (cinematic light)",
