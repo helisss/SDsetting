@@ -3,8 +3,8 @@
 	"https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3.safetensors",
 	"https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3A2.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/zetacolorV5_zetacolorV5.ckpt",
-	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolove/main/Counterfeit-V2.5_fp16.safetensors",
-	"https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/chilloutmix_NiPrunedFp16Fix.safetensors"
+	"https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/chilloutmix_NiPrunedFp16Fix.safetensors",
+	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5_fp16.safetensors"
     ],
     "contorlnet_urls":[
         "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors",

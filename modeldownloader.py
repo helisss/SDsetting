@@ -14,7 +14,9 @@ def argsset():
     parser.add_argument('--ext', action="store_true", help='Check extension')
     parser.add_argument('--chconfig', action="store_true", help='Modify ui-config.json file')
     parser.add_argument('--bkconfig', action="store_true", help='Backup ui-config.json file')
-    # parser.add_argument('--type', required=False, default='SD', help='Download model type')
+    parser.add_argument('--model', action="store_true",  help='Download model type')
+    parser.add_argument('--lora', action="store_true",  help='Download model type')
+    parser.add_argument('--emb', action="store_true",  help='Download model type')
     # parser.add_argument('--url', required=False, type=str, help='Download model url')
     args = parser.parse_args()
     return args
