@@ -1,11 +1,10 @@
 {
     "model_urls":[
-        "https://huggingface.co/nuigurumi/basil_mix/resolve/main/Basil_mix_fixed.safetensors",
 	"https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3.safetensors",
 	"https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3A2.safetensors",
-        "https://huggingface.co/TASUKU2023/Chilloutmix/resolve/main/Chilloutmix.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/zetacolorV5_zetacolorV5.ckpt",
-	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.safetensors"
+	"https://huggingface.co/gsdf/Counterfeit-V2.5/resolove/main/Counterfeit-V2.5_fp16.safetensors",
+	"https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Stable-diffusion/chilloutmix_NiPrunedFp16Fix.safetensors"
     ],
     "contorlnet_urls":[
         "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors",
@@ -44,7 +43,8 @@
         "https://github.com/36DB/stable-diffusion-webui-localization-ko_KR.git",
         "https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git",
         "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git",
-        "https://github.com/Mikubill/sd-webui-controlnet"
+        "https://github.com/Mikubill/sd-webui-controlnet",
+	"https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git"
     ],
 
     "positive":"(best quality,masterpiece:1,2), (high resolution), (intricate details), (photorealistic), (cinematic light)",

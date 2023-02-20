@@ -1,0 +1,5 @@
+<lora:jennieBlackpink_v1:0.2>
+<lora:jisooBlackpink_v1:0.2>
+<lora:lisaeBlackpink_v1:0.2>
+<lora:koreanDollLikeness_v10:0.2>
+<lora:yejiItzy_v1:0.2>
