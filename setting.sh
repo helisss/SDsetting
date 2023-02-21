@@ -14,7 +14,7 @@ python SDsetting/modeldownloader.py --set
 
 #cp SDsetting/styles.csv styles.csv
 
-cp -r SDsetting/wildcards/* extensions/stable-diffusion-webui-wildcards/wildcards
+cp -r SDsetting/wildcards/* extensions/sd-dynamic-prompts/wildcards
 
 cp SDsetting/relauncher.py relauncher.py
 
