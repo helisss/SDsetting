@@ -42,10 +42,13 @@
     ],
     "extensions":[
         "https://github.com/36DB/stable-diffusion-webui-localization-ko_KR.git",
-        "https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git",
-        "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git",
         "https://github.com/Mikubill/sd-webui-controlnet",
-	"https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git"
+        "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git",
+        "https://github.com/deforum-art/deforum-for-automatic1111-webui.git",
+        "https://github.com/camenduru/sd-webui-additional-networks.git",
+        "https://github.com/toriato/stable-diffusion-webui-daam.git",
+        "https://github.com/camenduru/stable-diffusion-webui-huggingface.git",
+        "https://github.com/adieyal/sd-dynamic-prompts.git"
     ],
 
     "positive":"(best quality,masterpiece:1,2), (high resolution), (intricate details), (photorealistic), (cinematic light)",
