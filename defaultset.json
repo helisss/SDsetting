@@ -52,6 +52,6 @@
     ],
 
     "positive":"(best quality,masterpiece:1,2), (high resolution), (intricate details), (photorealistic), (cinematic light)",
-    "negative":"(low quality:1.5), (worst quality:1.5),extra digit, signature, watermark, blurry, bad_prompt"
+    "negative":"nsfw, (worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (dusty sunbeams:1.0),, (abs, muscular, rib:1.0), (depth of field, bokeh, blurry:1.4),(motion lines, motion blur:1.4), (greyscale, monochrome:1.0), text, title, logo, signature,"
 
 }
