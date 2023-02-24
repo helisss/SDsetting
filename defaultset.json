@@ -30,7 +30,9 @@
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/shirtTugPoseLORA_shirtTug.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/yejiItzy_v1.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/stLouisLuxuriousWheels_v1.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/japaneseDollLikeness_v10.safetensors"
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/ratatatat7470.safetensors",
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/as109.safetensors",
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/DevilHS_e8.safetensors"
     ],
     "emb_urls":[
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/HyperStylizeV6.pt",
@@ -44,7 +46,6 @@
         "https://github.com/36DB/stable-diffusion-webui-localization-ko_KR.git",
         "https://github.com/Mikubill/sd-webui-controlnet",
         "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git",
-        "https://github.com/deforum-art/deforum-for-automatic1111-webui.git",
         "https://github.com/camenduru/sd-webui-additional-networks.git",
         "https://github.com/toriato/stable-diffusion-webui-daam.git",
         "https://github.com/camenduru/stable-diffusion-webui-huggingface.git",
