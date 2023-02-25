@@ -25,14 +25,13 @@
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/estheticFutanariTrap_tr25.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/jennieBlackpink_v1.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/jisooBlackpink_v1.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/lisaBlackpink_v1.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/koreanDollLikeness_v10.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/shirtTugPoseLORA_shirtTug.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/yejiItzy_v1.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/stLouisLuxuriousWheels_v1.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/ratatatat7470.safetensors",
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/as109.safetensors",
-        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/DevilHS_e8.safetensors"
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/DevilHS_e8.safetensors",
+        "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/models/Lora/otokonokosChastity_modelsLearnedFromThe.safetensors"
     ],
     "emb_urls":[
         "https://huggingface.co/ENSEONG/selfmix/resolve/main/setmodel/embeddings/HyperStylizeV6.pt",
