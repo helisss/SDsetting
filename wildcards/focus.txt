@@ -1,49 +1,9 @@
-
-armpit_focus
-ass_focus
-back_focus
-breast_focus
-cowboy_shot
-eye_contact
-eye_focus
-feet_out_of_frame
-female_focus
-focus on face
-focus on lower_body
-focus on upper_body
-foot_focus
-front_focus
-full body
-hand_focus
-hip_focus
-looking_afar
-looking_at_another
-looking_at_ass
-looking_at_breasts
-looking_at_hand
-looking_at_mirror
-looking_at_phone
-looking_at_viewer
-looking_away
-looking_back
-looking_down
-looking_front
-looking_outside
-looking_over_eyewear
-looking_through_legs
-looking_to_the_side
-looking_up
-male_focus
-navel_focus
-other_focus
-pectoral_focus
+face
 portrait
-thigh_focus
-very_wide_shot
-wide_shot
-from above
-from below
-close up
-dutch angle
-from side
-from behind
+upper body
+lower body
+cowboy shot
+feet out of frame
+fullbody
+wide shot
+very wide shot
